@@ -1,1 +1,41 @@
-body { background-color: lightblue; }
+body { background-color: lightblue; 
+}
+
+#botao0principal{
+  background-color: rgba(24, 214, 24, 0.979);
+}
+
+body .tabelamae{
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  background-color: lightblue;
+  margin-top: 15vh;
+}
+
+td {
+  background-color: green;
+}
+
+#display{
+  background-color: white;
+  width: 30vw;
+  height: 5vh;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.input {
+  background-color: green;
+  width: 100% ;
+  height: 100% ;
+  color: white;
+  
+
+}
+
+.input:hover{
+  background-color: rgba(24, 214, 24, 0.979);
+  
+  transition: 0.3s;
+}
