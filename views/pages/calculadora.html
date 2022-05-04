@@ -4,7 +4,7 @@
 <head>
     <title>Calculadora</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../../public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body onkeypress="manipularTeclado()">
@@ -31,9 +31,9 @@
             <td><input class="input" type="button" value="+" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td><input class= "input"type="button" value="C" onclick="limparDisplay()" /></td>
+            <td><input id="botaoapagar"class= "input"type="button" value="C" onclick="limparDisplay()" /></td>
             <td ><input class="input" type="button" value="0" onclick="atualizarDisplay(this)" /></td>
-            <td><input class="input" type="button" value="=" onclick="calcularOperacao()" /></td>
+            <td><input id="botaoparaigual" class="input" type="button" value="=" onclick="calcularOperacao()" /></td>
             <td><input class="input" type="button" value="/" onclick="atualizarOperacao(this)" /></td>
         </tr>
     </table>
