@@ -2,12 +2,20 @@ function atualizarDisplay(btn){
     const display = document.getElementById('display');
     if(display.value.length === 9) return;
     if(display.value === '0') display.value = btn.value;
+    //if (display.value ==='**') display.value
     else display.value += btn.value;
 }
 
-function limparDisplay(){
-    document.getElementById('display').value = '0';
+function somarflutuante(numfloat){
+    document.getElementById("")
 }
+
+function calcularaiz(){
+    const numero = document.getElementById("display");
+    const resultado = Math.sqrt(numero.value);
+    display.value = resultado;
+}
+
 
 var operador = ''
 var valor1 = 0
@@ -29,4 +37,8 @@ function calcularOperacao(){
 function manipularTeclado(){
     if(/[0-9]/.test(event.key))
         atualizarDisplay({value: event.key});
+}
+
+function limparDisplay(){
+    document.getElementById('display').value = "0"
 }
